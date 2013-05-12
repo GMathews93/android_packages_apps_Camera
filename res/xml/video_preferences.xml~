@@ -95,25 +95,4 @@
     <ListPreference
             camera:key="pref_camera_storage_key"
             camera:title="@string/pref_camera_storage_title" />
-    <ListPreference
-            camera:key="pref_camera_storage_key"
-            camera:title="@string/pref_camera_storage_title" />
-    <ListPreference
-            camera:key="pref_volume_buttons_key"
-            camera:defaultValue="@string/pref_camera_volume_buttons_default"
-            camera:title="@string/pref_camera_volume_buttons_title"
-            camera:entries="@array/pref_camera_volume_buttons_entries"
-            camera:entryValues="@array/pref_camera_volume_buttons_values" />
-    <ListPreference
-            camera:key="pref_camera_touch_to_key"
-            camera:defaultValue="@string/pref_camera_touch_to_default"
-            camera:title="@string/pref_camera_touch_to_title"
-            camera:entries="@array/pref_camera_touch_to_entries"
-            camera:entryValues="@array/pref_camera_touch_to_values" />
-    <ListPreference
-            camera:key="pref_camera_video_stabilization_key"
-            camera:defaultValue="@string/pref_camera_video_stabilization_default"
-            camera:title="@string/pref_camera_video_stabilization_title"
-            camera:entries="@array/pref_switch_entries"
-            camera:entryValues="@array/pref_switch_entryvalues" />
 </PreferenceGroup>

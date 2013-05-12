@@ -56,10 +56,10 @@
     <string name="review_ok">DONE</string>
 
     <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
-    <string name="time_lapse_title">Time Lapse Recording</string>
+    <string name="time_lapse_title">Time lapse recording</string>
 
     <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
-    <string name="pref_camera_id_title">Choose Camera</string>
+    <string name="pref_camera_id_title">Choose camera</string>
 
     <string name="pref_camera_id_default" translatable="false">0</string>
 
@@ -69,7 +69,7 @@
     <string name="pref_camera_id_entry_front">Front</string>
 
     <!-- Settings screen, setting title text -->
-    <string name="pref_camera_recordlocation_title">Store Location</string>
+    <string name="pref_camera_recordlocation_title">Store location</string>
 
     <string name="pref_camera_recordlocation_default" translatable="false">none</string>
 
@@ -84,7 +84,7 @@
     <string name="setting_on_value" translatable="false">on</string>
 
     <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
-    <string name="pref_video_quality_title">Video Quality</string>
+    <string name="pref_video_quality_title">Video quality</string>
     <!-- The default quality value is 5 (720p) -->
     <string name="pref_video_quality_default" translatable="false">5</string>
     <!-- Video quality setting entry. Videos will be recorded in 1080p quality. [CHAR LIMIT=24] -->
@@ -100,37 +100,37 @@
 
     <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
-    <string name="pref_video_time_lapse_frame_interval_title">Time Lapse</string>
+    <string name="pref_video_time_lapse_frame_interval_title">Time lapse</string>
     <string name="pref_video_time_lapse_frame_interval_default" translatable="false">0</string>
 
     <!-- Settings screen, Camera setting category title -->
-    <string name="pref_camera_settings_category">Camera Settings</string>
+    <string name="pref_camera_settings_category">Camera settings</string>
 
     <!-- Settings screen, Camcorder setting category title -->
-    <string name="pref_camcorder_settings_category">Camcorder Settings</string>
+    <string name="pref_camcorder_settings_category">Camcorder settings</string>
 
     <!-- Settings screen, Picture size title -->
-    <string name="pref_camera_picturesize_title">Picture Size</string>
+    <string name="pref_camera_picturesize_title">Picture size</string>
 
     <!-- Settings screen, dialog choice for 8 megapixels picture size [CHAR LIMIT=15] -->
-    <string name="pref_camera_picturesize_entry_8mp">8MP</string>
+    <string name="pref_camera_picturesize_entry_8mp">8M pixels</string>
     <!-- Settings screen, dialog choice for 5 megapixels picture size [CHAR LIMIT=15] -->
-    <string name="pref_camera_picturesize_entry_5mp">5MP</string>
+    <string name="pref_camera_picturesize_entry_5mp">5M pixels</string>
     <!-- Settings screen, dialog choice for 3 megapixels picture size [CHAR LIMIT=15] -->
-    <string name="pref_camera_picturesize_entry_3mp">3MP</string>
+    <string name="pref_camera_picturesize_entry_3mp">3M pixels</string>
     <!-- Settings screen, dialog choice for 2 megapixels picture size [CHAR LIMIT=15] -->
-    <string name="pref_camera_picturesize_entry_2mp">2MP</string>
+    <string name="pref_camera_picturesize_entry_2mp">2M pixels</string>
     <!-- Settings screen, dialog choice for 1.3 megapixels picture size [CHAR LIMIT=15] -->
-    <string name="pref_camera_picturesize_entry_1_3mp">1.3MP</string>
+    <string name="pref_camera_picturesize_entry_1_3mp">1.3M pixels</string>
     <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
-    <string name="pref_camera_picturesize_entry_1mp">1MP</string>
+    <string name="pref_camera_picturesize_entry_1mp">1M pixels</string>
     <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
     <string name="pref_camera_picturesize_entry_vga">VGA</string>
     <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
     <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
 
     <!-- Settings screen, Focus mode title -->
-    <string name="pref_camera_focusmode_title">Focus Mode</string>
+    <string name="pref_camera_focusmode_title">Focus mode</string>
 
     <!-- Settings screen, Focus mode dialog radio button choices -->
     <string name="pref_camera_focusmode_entry_auto">Auto</string>
@@ -144,7 +144,7 @@
     <string name="pref_camera_flashmode_no_flash" translatable="false">no_flash</string>
 
     <!-- Settings screen, Flash mode title -->
-    <string name="pref_camera_flashmode_title">Flash Mode</string>
+    <string name="pref_camera_flashmode_title">Flash mode</string>
 
     <!-- Settings screen, Flash mode dialog radio button choices -->
     <string name="pref_camera_flashmode_entry_auto">Auto</string>
@@ -158,7 +158,7 @@
     <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
 
     <!-- Settings screen, white balance title -->
-    <string name="pref_camera_whitebalance_title">White Balance</string>
+    <string name="pref_camera_whitebalance_title">White balance</string>
 
     <!-- Settings screen, White balance dialog radio button choices -->
     <string name="pref_camera_whitebalance_entry_auto">Auto</string>
@@ -171,7 +171,7 @@
     <string name="pref_camera_scenemode_default" translatable="false">auto</string>
 
     <!-- Settings screen, Select Scene mode -->
-    <string name="pref_camera_scenemode_title">Scene Mode</string>
+    <string name="pref_camera_scenemode_title">Scene mode</string>
 
     <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
     <string name="pref_camera_scenemode_entry_auto">Auto</string>
@@ -254,21 +254,21 @@
     <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
     <string name="effect_goofy_face_squeeze">Squeeze</string>
     <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
-    <string name="effect_goofy_face_big_eyes">Big Eyes</string>
+    <string name="effect_goofy_face_big_eyes">Big eyes</string>
     <!-- Effect setting item that makes mouth big. [CHAR LIMIT=14] -->
-    <string name="effect_goofy_face_big_mouth">Big Mouth</string>
+    <string name="effect_goofy_face_big_mouth">Big mouth</string>
     <!-- Effect setting item that makes mouth small. [CHAR LIMIT=14] -->
-    <string name="effect_goofy_face_small_mouth">Small Mouth</string>
+    <string name="effect_goofy_face_small_mouth">Small mouth</string>
     <!-- Effect setting item that makes nose big. [CHAR LIMIT=14] -->
-    <string name="effect_goofy_face_big_nose">Big Nose</string>
+    <string name="effect_goofy_face_big_nose">Big nose</string>
     <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
-    <string name="effect_goofy_face_small_eyes">Small Eyes</string>
+    <string name="effect_goofy_face_small_eyes">Small eyes</string>
     <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
-    <string name="effect_backdropper_space">In Space</string>
+    <string name="effect_backdropper_space">In space</string>
     <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
     <string name="effect_backdropper_sunset">Sunset</string>
     <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
-    <string name="effect_backdropper_gallery">Your Video</string>
+    <string name="effect_backdropper_gallery">Your video</string>
 
     <!-- Message displayed in overlay during background replacement training [CHAR LIMIT=180]-->
     <string name="bg_replacement_message">Set your device down.\nStep out of view for a moment.</string>
@@ -281,7 +281,7 @@
     <string name="disable_video_snapshot_hint">Video snapshot is disabled when special effects are on.</string>
 
     <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
-    <string name="clear_effects">Clear Effects</string>
+    <string name="clear_effects">Clear effects</string>
 
     <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
     <string name="effect_silly_faces">SILLY FACES</string>
@@ -337,90 +337,90 @@ CHAR LIMIT = NONE] -->
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <string name="pref_video_time_lapse_frame_interval_off">Off</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_500">0.5 Seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_500">0.5 seconds</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_1000">1 Second</string>
+    <string name="pref_video_time_lapse_frame_interval_1000">1 second</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_1500">1.5 Seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_1500">1.5 seconds</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_2000">2 Seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_2000">2 seconds</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_2500">2.5 Seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_2500">2.5 seconds</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_3000">3 Seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_3000">3 seconds</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_4000">4 Seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_4000">4 seconds</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_5000">5 Seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_5000">5 seconds</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_6000">6 Seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_6000">6 seconds</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_10000">10 Seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_10000">10 seconds</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_12000">12 Seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_12000">12 seconds</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_15000">15 Seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_15000">15 seconds</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_24000">24 Seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_24000">24 seconds</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_30000">0.5 Minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_30000">0.5 minutes</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_60000">1 Minute</string>
+    <string name="pref_video_time_lapse_frame_interval_60000">1 minute</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_90000">1.5 Minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_90000">1.5 minutes</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_120000">2 Minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_120000">2 minutes</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_150000">2.5 Minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_150000">2.5 minutes</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_180000">3 Minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_180000">3 minutes</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_240000">4 Minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_240000">4 minutes</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_300000">5 Minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_300000">5 minutes</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_360000">6 Minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_360000">6 minutes</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_600000">10 Minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_600000">10 minutes</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_720000">12 Minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_720000">12 minutes</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_900000">15 Minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_900000">15 minutes</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_1440000">24 Minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_1440000">24 minutes</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_1800000">0.5 Hours</string>
+    <string name="pref_video_time_lapse_frame_interval_1800000">0.5 hours</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
     <string name="pref_video_time_lapse_frame_interval_3600000">1 hour</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_5400000">1.5 Hour</string>
+    <string name="pref_video_time_lapse_frame_interval_5400000">1.5 hour</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_7200000">2 Hours</string>
+    <string name="pref_video_time_lapse_frame_interval_7200000">2 hours</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_9000000">2.5 Hours</string>
+    <string name="pref_video_time_lapse_frame_interval_9000000">2.5 hours</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_10800000">3 Hours</string>
+    <string name="pref_video_time_lapse_frame_interval_10800000">3 hours</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_14400000">4 Hours</string>
+    <string name="pref_video_time_lapse_frame_interval_14400000">4 hours</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_18000000">5 Hours</string>
+    <string name="pref_video_time_lapse_frame_interval_18000000">5 hours</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_21600000">6 Hours</string>
+    <string name="pref_video_time_lapse_frame_interval_21600000">6 hours</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_36000000">10 Hours</string>
+    <string name="pref_video_time_lapse_frame_interval_36000000">10 hours</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_43200000">12 Hours</string>
+    <string name="pref_video_time_lapse_frame_interval_43200000">12 hours</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_54000000">15 Hours</string>
+    <string name="pref_video_time_lapse_frame_interval_54000000">15 hours</string>
     <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-    <string name="pref_video_time_lapse_frame_interval_86400000">24 Hours</string>
+    <string name="pref_video_time_lapse_frame_interval_86400000">24 hours</string>
 
     <!-- Seconds: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
-    <string name="time_lapse_seconds">Seconds</string>
+    <string name="time_lapse_seconds">seconds</string>
     <!-- Minutes: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
-    <string name="time_lapse_minutes">Minutes</string>
+    <string name="time_lapse_minutes">minutes</string>
     <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
-    <string name="time_lapse_hours">Hours</string>
+    <string name="time_lapse_hours">hours</string>
 
     <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
     <string name="time_lapse_interval_set">Done</string>
