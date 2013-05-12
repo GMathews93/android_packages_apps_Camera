@@ -1064,10 +1064,6 @@ public class PhotoModule
                     width = s.height;
                     height = s.width;
                 }
-                if (mUltraPixel) {
-                    width *= 0.5;
-                    height *= 0.5;
-                }
                 Uri uri = mImageNamer.getUri();
                 mActivity.addSecureAlbumItemIfNeeded(false, uri);
                 String title = mImageNamer.getTitle();
@@ -1208,7 +1204,7 @@ public class PhotoModule
                     r = mQueue.get(0);
                 }
                 if (mUltraPixel) {
-                    Bitmap bitmap = Util.makeBitmap(r.data, r.width*r.height);
+                    Bitmap bitmap = Util.makeBitmap(r.data, (r.width*r.height));
                     bitmap = Bitmap.createScaledBitmap(bitmap, (r.width/2), (r.height/2), true);
                     r.data = Util.makeJpeg(bitmap, Bitmap.CompressFormat.JPEG, 100);
                 }
@@ -2636,7 +2632,7 @@ public class PhotoModule
         mVolumeButtons = Integer.parseInt(mPreferences.getString(CameraSettings.KEY_VOLUME_BUTTONS, mActivity.getString(R.string.pref_camera_volume_buttons_default)));
 
         // Set UltraPixel
-        mUltraPixel = mPreferences.getString(CameraSettings.KEY_VIDEO_STABILIZATION, mActivity.getString(R.string.pref_camera_video_stabilization_default)).equals(CameraSettings.VALUE_ON);
+        mUltraPixel = mPreferences.getString(CameraSettings.KEY_ULTRAPIXEL, mActivity.getString(R.string.pref_camera_ultrapixel_default)).equals(CameraSettings.VALUE_ON);
 
         // Set exposure compensation
         if (!mHDRShotInProgress) {
