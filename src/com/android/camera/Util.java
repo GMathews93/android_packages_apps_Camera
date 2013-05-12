@@ -62,6 +62,7 @@ import com.android.gallery3d.common.ApiHelper;
 
 import java.io.Closeable;
 import java.io.IOException;
+import java.io.ByteArrayOutputStream;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -441,6 +442,12 @@ public class Util {
             Log.e(TAG, "Got oom exception ", ex);
             return null;
         }
+    }
+
+    public static byte[] makeJpeg(Bitmap src, Bitmap.CompressFormat format, int quality) {
+        ByteArrayOutputStream os = new ByteArrayOutputStream();
+        src.compress(format, quality, os);
+        return os.toByteArray();
     }
 
     public static void closeSilently(Closeable c) {

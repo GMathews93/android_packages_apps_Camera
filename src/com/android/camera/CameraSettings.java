@@ -78,7 +78,6 @@ public class CameraSettings {
     public static final String KEY_STORAGE = "pref_camera_storage_key";
     public static final String KEY_NOHANDS_MODE = "pref_nohands_shutter_key";
     public static final String KEY_PERSISTENT_NOHANDS = "pref_nohands_persistent_key";
-    public static final String KEY_STORAGE = "pref_camera_storage_key";
     public static final String KEY_VOLUME_BUTTONS = "pref_volume_buttons_key";
     public static final String KEY_TOUCH_TO = "pref_camera_touch_to_key";
     public static final String KEY_VIDEO_STABILIZATION = "pref_camera_video_stabilization_key";

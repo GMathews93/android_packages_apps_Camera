@@ -1207,6 +1207,11 @@ public class PhotoModule
                     }
                     r = mQueue.get(0);
                 }
+                if (mUltraPixel) {
+                    Bitmap bitmap = Util.makeBitmap(r.data, r.width*r.height);
+                    bitmap = Bitmap.createScaledBitmap(bitmap, (r.width/2), (r.height/2), true);
+                    r.data = Util.makeJpeg(bitmap, Bitmap.CompressFormat.JPEG, 100);
+                }
                 storeImage(r.data, r.uri, r.title, r.loc, r.width, r.height,
                         r.orientation);
                 synchronized (this) {
@@ -1767,7 +1772,7 @@ public class PhotoModule
                     mHDRExposureSet = true;
                     onShutterButtonClick();
                 }
-            }, 1000);
+            }, 333);
             return;
         }
         else if (Util.getDoSoftwareHDRShot() && mHDRShotInProgress && !mHDRExposureSet) {
@@ -1848,7 +1853,7 @@ public class PhotoModule
                             }
                         }.start();
                     }
-                }, 1000);
+                }, 333);
                 return;
             }
 
